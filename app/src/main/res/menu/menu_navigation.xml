@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_notice"
+        android:icon="@drawable/menu"
+        android:title="🚨공지사항🚨" />
+
+    <item
+        android:id="@+id/item_php"
+        android:icon="@drawable/menu"
+        android:title="인기 해수욕장🔥" />
+
+    <item
+        android:id="@+id/item_board"
+        android:icon="@drawable/menu"
+        android:title="해수욕장 리뷰🏖️" />
+
+    <item
+        android:id="@+id/item_graph"
+        android:icon="@drawable/menu"
+        android:title="해수욕장 방문자 수🏄‍♂️" />
+
+    <item
+        android:id="@+id/item_youtube"
+        android:icon="@drawable/menu"
+        android:title="해수욕장 ASMR🌊" />
+
+    <item
+        android:id="@+id/item_food"
+        android:icon="@drawable/menu"
+        android:title="부산 맛집🍴" />
+</menu>

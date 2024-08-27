@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C9F0FF"
+    android:elevation="4dp"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/rstr_nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="식당명"
+        android:textSize="24sp"
+        android:background="#6DD6FF"
+        android:textColor="#C9F0FF"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/area_nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="지역명"
+        android:textSize="18sp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="4dp" />
+
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#6DD6FF"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

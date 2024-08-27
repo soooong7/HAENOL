@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C9F0FF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/noticeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="공지사항"
+            android:textSize="40sp"
+            android:background="#6DD6FF"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/lastsaved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="최근 작성 시간 : "
+            android:textSize="16sp"
+            android:background="#6DD6FF"
+            android:textColor="#FFFFFF"
+            android:gravity="right"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/manageId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="작성자 : "
+            android:textSize="16sp"
+            android:background="#6DD6FF"
+            android:textColor="#FFFFFF"
+            android:gravity="right"
+            android:padding="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/main_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#6DD6FF"
+        android:icon="@android:drawable/ic_input_add"
+        android:text="작성하기"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+</RelativeLayout>
